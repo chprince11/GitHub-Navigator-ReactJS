@@ -6,7 +6,6 @@ body {
   background-position: center;
   mix-blend-mode: normal;
   filter: opacity(90%);
-  overflow: hidden;
 }
 @media (max-width: 945px) {
   body {
