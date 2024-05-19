@@ -31,11 +31,11 @@ body {
 
 footer {
   position: absolute;
-  left: 8rem;
-  bottom: -33rem;
   color: white;
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 0.9rem;
+  font-weight: bold;
+  left: 2;
 }
 
 .form-control {
@@ -43,23 +43,6 @@ footer {
   height: 60px;
 }
 
-@media (max-width: 444px) {
-  footer {
-    left: 7rem;
-  }
-}
-@media (max-width: 340px) {
-  footer {
-    left: 4rem;
-  }
-}
-@media (max-width: 388px) {
-  footer {
-    left: 5.5rem;
-  }
-}
-@media (max-width: 326px) {
-  footer {
-    left: 3.9rem;
-  }
+.btn {
+  width: 40%;
 }
