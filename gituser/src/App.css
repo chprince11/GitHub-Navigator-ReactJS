@@ -5,12 +5,61 @@ body {
   padding: 20px;
 }
 
-footer {
-  color: #555;
-  font-size: 1rem;
+.user-avatar {
+  width: 250px;
+  border: 5px solid #007bff;
+  transition: transform 0.3s ease;
 }
 
-footer span {
-  padding: 0 5px;
-  color: #e74c3c;
+.user-avatar:hover {
+  transform: scale(1.1);
+}
+
+.card-body h5 {
+  font-weight: 600;
+}
+
+.card-body p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+footer {
+  position: absolute;
+  left: 8rem;
+  bottom: -33rem;
+  color: white;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.form-control {
+  caret-color: blue;
+  height: 60px;
+}
+
+@media (max-width: 444px) {
+  footer {
+    left: 7rem;
+  }
+}
+@media (max-width: 340px) {
+  footer {
+    left: 4rem;
+  }
+}
+@media (max-width: 388px) {
+  footer {
+    left: 5.5rem;
+  }
+}
+@media (max-width: 326px) {
+  footer {
+    left: 3.9rem;
+  }
 }

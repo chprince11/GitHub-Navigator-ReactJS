@@ -1,5 +1,6 @@
 // src/components/UserForm.js
 import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const UserForm = ({ getUser }) => {
   const [username, setUsername] = useState("");

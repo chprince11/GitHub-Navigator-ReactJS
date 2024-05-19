@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+  background-image: url("./coverPic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  mix-blend-mode: normal;
+  filter: opacity(90%);
+  overflow: hidden;
+}
+@media (max-width: 945px) {
+  body {
+    background-size: 150%;
+  }
+}
+@media (max-width: 750px) {
+  body {
+    background-size: 200%;
+  }
+}
+@media (max-width: 560px) {
+  body {
+    background-size: 300%;
+  }
+}
+@media (max-width: 390px) {
+  body {
+    background-size: 350%;
+  }
+}
+@media (max-width: 299px) {
+  body {
+    background-size: 500%;
+  }
+}
