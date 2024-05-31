@@ -21,7 +21,7 @@ const UserForm = ({ getUser }) => {
           className="form-control"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder="Search a Github User"
+          placeholder="Search a Github User... Ex. chprince11"
         />
         <button className="btn btn-primary" type="submit">
           Search
